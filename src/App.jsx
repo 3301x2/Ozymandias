@@ -120,7 +120,7 @@ export default function App() {
                 boxShadow:`0 4px 16px ${T.accentGlow}`,
                 display:"flex", alignItems:"center", justifyContent:"center",
                 overflow:"hidden" }}>
-                <img src="/favicon.svg" alt="" style={{ width:22, height:22 }} />
+                <img src={`${import.meta.env.BASE_URL}favicon.svg`} alt="" style={{ width:22, height:22 }} />
               </div>
               <span style={{ color:T.textPrimary, fontWeight:700, fontSize:17 }}>
                 Ozymandias

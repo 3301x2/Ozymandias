@@ -10,7 +10,7 @@ export function SplashScreen({ onStart }) {
       <div className="animate-fade-in-up" style={{ textAlign:"center", maxWidth:420, width:"100%" }}>
         {/* Logo */}
         <div className="animate-pop-in" style={{ width:108, height:108, margin:"0 auto 20px" }}>
-          <img src="/logo.svg" alt="Ozymandias" style={{ width:"100%", height:"100%" }} />
+          <img src={`${import.meta.env.BASE_URL}logo.svg`} alt="Ozymandias" style={{ width:"100%", height:"100%" }} />
         </div>
         <h1 style={{ fontSize:36, fontWeight:800, letterSpacing:"-0.5px", marginBottom:8 }}>
           <span style={{ color:T.accentLight }}>Ozymandias</span>
